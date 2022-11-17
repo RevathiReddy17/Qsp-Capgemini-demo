@@ -1,0 +1,1023 @@
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~
+$ git clone http://gitup.com/RevathiReddy17/Qsp-Capgemini-demo.git
+Cloning into 'Qsp-Capgemini-demo'...
+fatal: repository 'http://gitup.com/RevathiReddy17/Qsp-Capgemini-demo.g
+it/' not found
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~
+$ get clone https://github.com/RevathiReddy17/Qsp-Capgemini-demo.git
+bash: get: command not found
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~
+$ git clone https://github.com/RevathiReddy17/Qsp-Capgemini-demo.git
+Cloning into 'Qsp-Capgemini-demo'...
+warning: You appear to have cloned an empty repository.
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+'New folder'/
+ OneDrive/
+ Pictures/
+ PrintHood@
+ PycharmProjects/
+ Qsp-Capgemini-demo/
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ eclipse/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~
+$ cd qsp
+bash: cd: qsp: No such file or directory
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~
+$ cd Qsp-Capgemini-demo/
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ ls -a
+./  ../  .git/
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ cd.git
+bash: cd.git: command not found
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ cd .git
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo/.git (GIT_DIR!)
+$ cd..
+bash: cd..: command not found
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo/.git (GIT_DIR!)
+$ cd ..
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ touch signup
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ ls
+signup
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        signup
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git add signup
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   signup
+
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git commit -m "signup file is created"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Revathi Reddy@DESKTOP-IGKTLFK.(none)')
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git config --global uesr.name "Revathireddy17"
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git config --global user.email "revathireddy382@gmail.com"
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git config --global user.name
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git config --global user.email
+revathireddy382@gmail.com
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git commit -m "signup file is created"
+[main (root-commit) 8aa981c] signup file is created
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 signup
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git log
+commit 8aa981ce92dfee12879b9149078ceed219b0e657 (HEAD -> main)
+Author: unknown <revathireddy382@gmail.com>
+Date:   Thu Nov 17 12:57:47 2022 +0530
+
+    signup file is created
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git config --global user.name "RevathiReddy17"
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git config --global user.name
+RevathiReddy17
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git config --global user.email
+revathireddy382@gmail.com
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git commit -m "signup file is created"
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git log
+commit 8aa981ce92dfee12879b9149078ceed219b0e657 (HEAD -> main)
+Author: unknown <revathireddy382@gmail.com>
+Date:   Thu Nov 17 12:57:47 2022 +0530
+
+    signup file is created
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git push origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 218 bytes | 218.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/RevathiReddy17/Qsp-Capgemini-demo.git
+ * [new branch]      main -> main
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git push origin main
+Everything up-to-date
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ touch file1 file2 file3 file4
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ ls
+file1  file2  file3  file4  signup
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git add .
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   file1
+        new file:   file2
+        new file:   file3
+        new file:   file4
+
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git reset file3
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   file1
+        new file:   file2
+        new file:   file4
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        file3
+
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git commit -m "3 files are added"
+[main eac6e83] 3 files are added
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 file1
+ create mode 100644 file2
+ create mode 100644 file4
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git log --oneline
+eac6e83 (HEAD -> main) 3 files are added
+8aa981c (origin/main) signup file is created
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ touch login
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git add login
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git commit -m "login is created"
+[main 4ce59d0] login is created
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 login
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git log -oneline
+fatal: unrecognized argument: -oneline
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ log --oneline
+bash: log: command not found
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git log --oneline
+4ce59d0 (HEAD -> main) login is created
+eac6e83 3 files are added
+8aa981c (origin/main) signup file is created
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git reset head~1
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git log --oneline
+eac6e83 (HEAD -> main) 3 files are added
+8aa981c (origin/main) signup file is created
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        file3
+        login
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git log --oneline
+eac6e83 (HEAD -> main) 3 files are added
+8aa981c (origin/main) signup file is created
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git reset --soft head~1
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ touch cart
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git add cart
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git commit -m "cart is created"
+[main e6dbe1d] cart is created
+ 4 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 cart
+ create mode 100644 file1
+ create mode 100644 file2
+ create mode 100644 file4
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git log --oneline
+e6dbe1d (HEAD -> main) cart is created
+8aa981c (origin/main) signup file is created
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git reset head~1
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git log --oneline
+8aa981c (HEAD -> main, origin/main) signup file is created
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        cart
+        file1
+        file2
+        file3
+        file4
+        login
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git log --oneline
+8aa981c (HEAD -> main, origin/main) signup file is created
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git reset --soft head~1
+fatal: ambiguous argument 'head~1': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git reset head~1
+fatal: ambiguous argument 'head~1': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git reset head~1
+fatal: ambiguous argument 'head~1': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git reset --hard head~1
+fatal: ambiguous argument 'head~1': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git log --oneline
+8aa981c (HEAD -> main, origin/main) signup file is created
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ ls
+cart  file1  file2  file3  file4  login  signup
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git reset file 3
+fatal: ambiguous argument 'file': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git reset file3
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        cart
+        file1
+        file2
+        file3
+        file4
+        login
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git reset file2
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        cart
+        file1
+        file2
+        file3
+        file4
+        login
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git log --oneline
+8aa981c (HEAD -> main, origin/main) signup file is created
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git reset hard head~1
+fatal: ambiguous argument 'hard': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git log
+commit 8aa981ce92dfee12879b9149078ceed219b0e657 (HEAD -> main, origin/main)
+Author: unknown <revathireddy382@gmail.com>
+Date:   Thu Nov 17 12:57:47 2022 +0530
+
+    signup file is created
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ touch sign1
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ ls
+cart  file1  file2  file3  file4  login  sign1  signup
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        cart
+        file1
+        file2
+        file3
+        file4
+        login
+        sign1
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git log --oneline
+8aa981c (HEAD -> main, origin/main) signup file is created
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git add sign1
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   sign1
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        cart
+        file1
+        file2
+        file3
+        file4
+        login
+
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git commit -m "sign1 is created"
+[main c0dc11a] sign1 is created
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 sign1
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git log --oneline
+c0dc11a (HEAD -> main) sign1 is created
+8aa981c (origin/main) signup file is created
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git reset head~1
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        cart
+        file1
+        file2
+        file3
+        file4
+        login
+        sign1
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git log --oneline
+8aa981c (HEAD -> main, origin/main) signup file is created
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        cart
+        file1
+        file2
+        file3
+        file4
+        login
+        sign1
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git reset --soft head~1
+fatal: ambiguous argument 'head~1': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git reset --hard head~1
+fatal: ambiguous argument 'head~1': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git log
+commit 8aa981ce92dfee12879b9149078ceed219b0e657 (HEAD -> main, origin/main)
+Author: unknown <revathireddy382@gmail.com>
+Date:   Thu Nov 17 12:57:47 2022 +0530
+
+    signup file is created
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ toucls
+bash: toucls: command not found
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ ls
+cart  file1  file2  file3  file4  login  sign1  signup
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ touch demo1 demo2 demo3 demo4
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git add demo1
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git commit -m "demo1 is add"
+[main 1d2c4f9] demo1 is add
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 demo1
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git add demo3
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git commit - "demo3 is added"
+error: pathspec '-' did not match any file(s) known to git
+error: pathspec 'demo3 is added' did not match any file(s) known to git
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git commit -m "demo3 is added"
+[main 80f0452] demo3 is added
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 demo3
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git add demo4
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git commit -m "demo4 is added"
+[main 3e13be2] demo4 is added
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 demo4
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        cart
+        demo2
+        file1
+        file2
+        file3
+        file4
+        login
+        sign1
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git log
+commit 3e13be2573455b28960df8b2886a147237b8b3e2 (HEAD -> main)
+Author: RevathiReddy17 <revathireddy382@gmail.com>
+Date:   Thu Nov 17 16:00:11 2022 +0530
+
+    demo4 is added
+
+commit 80f04527434ba878fb57353bc21b80a710729df9
+Author: RevathiReddy17 <revathireddy382@gmail.com>
+Date:   Thu Nov 17 15:59:51 2022 +0530
+
+    demo3 is added
+
+commit 1d2c4f98d45da520edcef8a12c9bcdbcd9b0160e
+Author: RevathiReddy17 <revathireddy382@gmail.com>
+Date:   Thu Nov 17 15:58:52 2022 +0530
+
+    demo1 is add
+
+commit 8aa981ce92dfee12879b9149078ceed219b0e657 (origin/main)
+Author: unknown <revathireddy382@gmail.com>
+Date:   Thu Nov 17 12:57:47 2022 +0530
+
+    signup file is created
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git add demo2
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git commit -m "demo2 is added"
+[main b0d2f05] demo2 is added
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 demo2
+
+Revert "demo3 is added"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Revert "demo3 is added"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[main 2693e88] Revert "demo3 is added"
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 demo3
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git push origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 546 bytes | 546.00 KiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/RevathiReddy17/Qsp-Capgemini-demo.git
+   8aa981c..2693e88  main -> main
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git branch tree:- tree1
+fatal: 'tree:-' is not a valid branch name
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git branch chats
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git branch
+  chats
+* main
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git checkout chats
+Switched to branch 'chats'
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (chats)
+$ ls
+cart  demo1  demo2  demo4  file1  file2  file3  file4  login  sign1  signup
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (chats)
+$ touch chats-1
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (chats)
+$ git add .
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (chats)
+$ git status
+On branch chats
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   cart
+        new file:   chats-1
+        new file:   demo2
+        new file:   demo4
+        new file:   file1
+        new file:   file2
+        new file:   file3
+        new file:   file4
+        new file:   login
+        new file:   sign1
+
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (chats)
+$ git commit -m "chats files &2 more added"
+[chats ee79fe0] chats files &2 more added
+ 10 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 cart
+ create mode 100644 chats-1
+ create mode 100644 demo2
+ create mode 100644 demo4
+ create mode 100644 file1
+ create mode 100644 file2
+ create mode 100644 file3
+ create mode 100644 file4
+ create mode 100644 login
+ create mode 100644 sign1
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (chats)
+$ git log --oneline
+ee79fe0 (HEAD -> chats) chats files &2 more added
+2693e88 (origin/main, main) Revert "demo3 is added"
+80f0452 demo3 is added
+1d2c4f9 demo1 is add
+8aa981c signup file is created
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (chats)
+$
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git branch chats
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git branch
+  chats
+* main
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git checkout chats
+Switched to branch 'chats'
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (chats)
+$ ls
+cart  demo1  demo2  demo4  file1  file2  file3  file4  login  sign1  signup
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (chats)
+$ touch chats-1
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (chats)
+$ git add .
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (chats)
+$ git status
+On branch chats
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   cart
+        new file:   chats-1
+        new file:   demo2
+        new file:   demo4
+        new file:   file1
+        new file:   file2
+        new file:   file3
+        new file:   file4
+        new file:   login
+        new file:   sign1
+
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (chats)
+$ git commit -m "chats files &2 more added"
+[chats ee79fe0] chats files &2 more added
+ 10 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 cart
+ create mode 100644 chats-1
+ create mode 100644 demo2
+ create mode 100644 demo4
+ create mode 100644 file1
+ create mode 100644 file2
+ create mode 100644 file3
+ create mode 100644 file4
+ create mode 100644 login
+ create mode 100644 sign1
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (chats)
+$ git log --oneline
+ee79fe0 (HEAD -> chats) chats files &2 more added
+2693e88 (origin/main, main) Revert "demo3 is added"
+80f0452 demo3 is added
+1d2c4f9 demo1 is add
+8aa981c signup file is created
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (chats)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ ls
+demo1  signup
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git merge chats
+Updating 2693e88..ee79fe0
+Fast-forward
+ cart    | 0
+ chats-1 | 0
+ demo2   | 0
+ demo4   | 0
+ file1   | 0
+ file2   | 0
+ file3   | 0
+ file4   | 0
+ login   | 0
+ sign1   | 0
+ 10 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 cart
+ create mode 100644 chats-1
+ create mode 100644 demo2
+ create mode 100644 demo4
+ create mode 100644 file1
+ create mode 100644 file2
+ create mode 100644 file3
+ create mode 100644 file4
+ create mode 100644 login
+ create mode 100644 sign1
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ ls
+cart  chats-1  demo1  demo2  demo4  file1  file2  file3  file4  login  sign1  signup
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git log --oneline
+ee79fe0 (HEAD -> main, chats) chats files &2 more added
+2693e88 (origin/main) Revert "demo3 is added"
+80f0452 demo3 is added
+1d2c4f9 demo1 is add
+8aa981c signup file is created
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git show
+commit ee79fe0db17c6b84422118666aa90606ea96ef9c (HEAD -> main, chats)
+Author: RevathiReddy17 <revathireddy382@gmail.com>
+Date:   Thu Nov 17 16:46:08 2022 +0530
+
+    chats files &2 more added
+
+diff --git a/cart b/cart
+new file mode 100644
+index 0000000..e69de29
+diff --git a/chats-1 b/chats-1
+new file mode 100644
+index 0000000..e69de29
+diff --git a/demo2 b/demo2
+new file mode 100644
+index 0000000..e69de29
+diff --git a/demo4 b/demo4
+new file mode 100644
+index 0000000..e69de29
+diff --git a/file1 b/file1
+new file mode 100644
+index 0000000..e69de29
+diff --git a/file2 b/file2
+new file mode 100644
+index 0000000..e69de29
+diff --git a/file3 b/file3
+new file mode 100644
+index 0000000..e69de29
+diff --git a/file4 b/file4
+new file mode 100644
+index 0000000..e69de29
+diff --git a/login b/login
+new file mode 100644
+index 0000000..e69de29
+diff --git a/sign1 b/sign1
+new file mode 100644
+index 0000000..e69de29
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git branch status
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git checkout status
+Switched to branch 'status'
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (status)
+$ ls
+cart  chats-1  demo1  demo2  demo4  file1  file2  file3  file4  login  sign1  signup
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (status)
+$ touch status_1
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (status)
+$ git add status_1
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (status)
+$ git commit -m "status-1 is added"
+[status 2853efa] status-1 is added
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 status_1
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (status)
+$ ls
+cart  chats-1  demo1  demo2  demo4  file1  file2  file3  file4  login  sign1  signup  status_1
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (status)
+$ git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ ls
+cart  chats-1  demo1  demo2  demo4  file1  file2  file3  file4  login  sign1  signup
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git rebase status
+Successfully rebased and updated refs/heads/main.
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$ git log --oneline
+2853efa (HEAD -> main, status) status-1 is added
+ee79fe0 (chats) chats files &2 more added
+2693e88 (origin/main) Revert "demo3 is added"
+80f0452 demo3 is added
+1d2c4f9 demo1 is add
+8aa981c signup file is created
+
+Revathi Reddy@DESKTOP-IGKTLFK MINGW64 ~/Qsp-Capgemini-demo (main)
+$
